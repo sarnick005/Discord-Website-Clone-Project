@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans', Helvetica;
+}
+.headerimg{
+    height: 65px;
+    width: 127px;
+    padding-top: 12px;
+    padding-left: 150px;
+
+}
+.header-nav{
+    display: flex;
+    background-color: #404cee;
+    height: 80px;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    color: white;
+    margin-left: 175px;
+    padding-top: 12px;
+}
+nav ul{
+    padding: 10px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    transition: 1s;
+    font-size: 100%;
+    outline: 0;
+    line-height: 140%;
+    text-align: center;
+    font-weight: 450;
+
+}
+nav ul:hover{
+    text-decoration: underline;
+}
+.open-discord{
+    border-radius: 40px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    outline: 0;
+    font-size: 13px;
+    padding: 7px 16px;
+    height: 40px;
+    width: 115px;
+    color: #000;
+    background: #ffffff;
+    border: 0;
+    margin-top: 23px;
+    margin-left: 110px;
+    transition: 0.5s;
+}
+.open-discord:hover{
+    color: #404cee;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.436);
+}
+.banner{
+    height: 540px;
+    width: 100vw;
+}
+.description h1{
+    height: 70px;
+    width: 780px;
+    margin-left: 500px;
+    margin-top: -489px;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900 !important;
+    /* font-family: var(--font-headline); */
+    line-height: 95%;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Noto Sans', Helvetica, sans-serif
+}
+.description p{
+    /* margin-left: 500px; */
+    margin: 28px 0 0 0 ;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    line-height: 30px;
+    font-family: 'Noto Sans', Helvetica;
+    font-weight: 400 !important;
+}
+
+   
+.button1{
+    color: #000;
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 10px 35px 14px 35px;
+    margin: 100px 20px 0 475px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.button1:hover{
+    color: #404cee;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.436);
+}
+.button2{
+    margin: 100px 200px 0 10px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 0;
+    outline: 0;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.button2:hover{
+    opacity: 0.85;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.436);
+}
+.first-content{
+    height: 440px;
+    width: 1200px;
+    margin: 130px 0 0 135px;
+    background-color: rgb(255, 255, 255);
+    padding: 120px 40px;
+  
+}
+.first-content img{
+   height: 440px;
+   width: 678px;
+}
+.first-paragraph{
+    margin: -375px 0 0 790px;
+}
+.first-text{
+    margin-top: 24px !important;
+    /* line-height: 1.625; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: 350;
+    font-style: inherit;
+    font-family: inherit;
+    /* font-size: 17px; */
+    font-size: 18px;
+    line-height: 1.9em;
+}
+.second-content{
+    background-color: #f6f6f6;
+    height: 680px;
+    width: 100vw;
+    display: flex;
+}
+.second-paragraph{
+    height: 440px;
+    width: 380px;
+    padding: 200px 0 0 250px;
+}
+
+.second-text{
+    margin-top: 24px !important;
+    font-size: 18px;
+    line-height: 1.9em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: 350;
+    
+}
+.second-content img{
+    height: 400px;
+   width: 670px;
+   margin: 150px 0 20px 80px;
+}
+.third-content{
+    height: 440px;
+    width: 1200px;
+    margin: 10px 0 0 135px;
+    background-color: rgb(255, 255, 255);
+    padding: 100px 40px;
+  
+}
+.third-content img{
+   width: 678px;
+   height: 440px;
+}
+.third-paragraph{
+    margin: -375px 0 0 790px;
+}
+.third-text{
+    margin-top: 24px !important;
+    /* line-height: 1.625; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: 350;
+    font-style: inherit;
+    font-family: inherit;
+    /* font-size: 17px; */
+    font-size: 18px;
+    line-height: 1.9em;
+}
+.forth-content{
+    height: 1150px;
+    width: 100vw;
+    background-color: #f7f7f7;
+    padding: 120px 40px;
+}
+.forth-content h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    /* padding-top: 120px; */
+}
+.forth-content p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    /* padding-top: 120px; */
+}
+.forth-content img{
+    height: 715px;
+    width: 1180px;
+    margin-top: 16px;
+    margin-left: 130px;
+}
+.button3{
+    /* margin: 150px 200px 0 10px; */
+    margin: 20px 0 0 600px;
+    color: #ffffff;
+    /* background-color: #000000; */
+    background-color: #5865f2 !important;
+    border: 0;
+    outline: 0;
+    border-radius: 28px;
+    font-size: 20px;
+    /* padding: 12px 35px; */
+    padding: 10px 35px 14px 35px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.button3:hover{
+    opacity: 0.85;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.436);
+}
+.forth-content h2{
+    margin-top: 100px;
+    margin-left: 550px;
+    font-size: 28px;
+}
+.footer-content{
+    height: 500px;
+    width: 100vw;
+    background-color: #23272a;
+    padding-top: 80px;
+    padding-bottom: 64px;
+}
+.country{
+    height: 340px;
+    width: 300px;
+    
+    margin-bottom: 200px;
+    margin-left: 150px;
+    margin-right: 65px;
+}
+.footer-list{
+    background-color: #23272a;
+    margin-left: 80px;
+    height: 450px;
+    width: 1260px;
+    display: flex;
+    color: #fff;
+    border-bottom: 2px solid #ffffff;
+    /* flex-direction: row;
+    justify-content: center; */
+}
+.first-block,
+.second-block,
+.third-block,
+.forth-block{
+    height: 40px;
+    height: 180px;
+    height: 356px;
+    width: 180px;
+    margin: 0 0px 40px 70px;
+}
+ul p{
+    margin-bottom: 15px;
+    font-size: 14px !important;
+    /* margin-right: 10px; */
+    font-weight: 300;
+}
+ul h5{
+    color: #5865f2;
+    margin-bottom: 35px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.country-logo{
+    height: 20px;
+    display: flex;
+    cursor: pointer;
+}
+.country img{
+    
+    height: 20px;
+    width: 24px;
+}
+.country-logo p{
+    margin-left: 10px;
+    font-size: 14px !important;
+    
+}
+.fa-facebook{
+    font-size: 18px !important;
+    margin-top: 30px;
+    margin-right: 20px !important;
+    color: white;
+    transition: 0.3s;
+}
+.fa-twitter{
+    font-size: 18px !important;
+    margin-top: 30px;
+    margin-right: 20px !important;
+    color: white;
+    transition: 0.3s;
+}
+.fa-instagram{
+    font-size: 18px !important;
+    margin-top: 30px;
+    margin-right: 20px !important;
+    color: white;
+    transition: 0.3s;
+}
+.fa-youtube{
+    font-size: 18px !important;
+    margin-top: 30px;
+    margin-right: 20px !important;
+    color: white;
+    transition: 0.3s;
+}
+.fa-youtube:hover{
+    transform: scale(1.2) !important;
+}
+.fa-facebook:hover{
+    transform: scale(1.2) !important;
+}
+.fa-twitter:hover{
+    transform: scale(1.2) !important;
+}
+.fa-instagram:hover{
+    transform: scale(1.2) !important;
+}
+.open-discord2{
+    border-radius: 40px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    outline: 0;
+    font-size: 13px;
+    padding: 7px 16px;
+    height: 40px;
+    width: 115px;
+    color: #ffffff;
+    background: #5865f2;
+    border: 0;
+    margin-top: -15px !important;
+    margin-left: 970px;
+    transition: 0.5s;
+    opacity: 1;
+}
+.open-discord2:hover{
+    opacity: 0.6;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.436);
+}
+
